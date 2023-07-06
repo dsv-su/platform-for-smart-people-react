@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/platform-for-smart-people-react/static/css/main.946e36b8.css",
+    "main.js": "/platform-for-smart-people-react/static/js/main.540c7c61.js",
+    "static/js/787.3927661a.chunk.js": "/platform-for-smart-people-react/static/js/787.3927661a.chunk.js",
+    "static/media/evelina.png": "/platform-for-smart-people-react/static/media/evelina.f2cd0eff88115bdc2c58.png",
+    "static/media/nadja.png": "/platform-for-smart-people-react/static/media/nadja.8da1cd82e377e372873d.png",
+    "static/media/emily.png": "/platform-for-smart-people-react/static/media/emily.4d6753d2faf28735a7bc.png",
+    "static/media/carol.png": "/platform-for-smart-people-react/static/media/carol.2fe521338d9ada8cba3d.png",
+    "static/media/judy.png": "/platform-for-smart-people-react/static/media/judy.f928dce79ee8f10d2379.png",
+    "static/media/sybil.png": "/platform-for-smart-people-react/static/media/sybil.a0169b6da2b1319b91b8.png",
+    "static/media/ivan.png": "/platform-for-smart-people-react/static/media/ivan.5cd4dd0719ae4186641b.png",
+    "static/media/oscar.png": "/platform-for-smart-people-react/static/media/oscar.96d11c267614e27abd4a.png",
+    "static/media/heidi.png": "/platform-for-smart-people-react/static/media/heidi.8fb21b5db08a7f57ef41.png",
+    "static/media/bob.png": "/platform-for-smart-people-react/static/media/bob.40a12edda4af9e3a27cb.png",
+    "static/media/dave.png": "/platform-for-smart-people-react/static/media/dave.d05bb7247821d1986828.png",
+    "static/media/pat.png": "/platform-for-smart-people-react/static/media/pat.2ce5456309cc3f040bba.png",
+    "static/media/rupert.png": "/platform-for-smart-people-react/static/media/rupert.8803b0305617e9b0d37d.png",
+    "static/media/mike.png": "/platform-for-smart-people-react/static/media/mike.c5eae9451c325ff4308d.png",
+    "static/media/anna.png": "/platform-for-smart-people-react/static/media/anna.b77a80b5037315173079.png",
+    "static/media/landing.png": "/platform-for-smart-people-react/static/media/landing.bc1b5f6987d311f8383e.png",
+    "static/media/garn.png": "/platform-for-smart-people-react/static/media/garn.ce937261362eea52e117.png",
+    "static/media/qr.png": "/platform-for-smart-people-react/static/media/qr.b5e5e075c35b00503cd0.png",
+    "static/media/sticka.png": "/platform-for-smart-people-react/static/media/sticka.21e0f84532b1efa1e666.png",
+    "static/media/diska.png": "/platform-for-smart-people-react/static/media/diska.dac4f7ad8289e2dcc518.png",
+    "static/media/pepparkaksformar.png": "/platform-for-smart-people-react/static/media/pepparkaksformar.338c442955b85741a81a.png",
+    "static/media/vattenfärger.png": "/platform-for-smart-people-react/static/media/vattenfärger.d34f3f295e1d31b84062.png",
+    "index.html": "/platform-for-smart-people-react/index.html",
+    "main.946e36b8.css.map": "/platform-for-smart-people-react/static/css/main.946e36b8.css.map",
+    "main.540c7c61.js.map": "/platform-for-smart-people-react/static/js/main.540c7c61.js.map",
+    "787.3927661a.chunk.js.map": "/platform-for-smart-people-react/static/js/787.3927661a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.946e36b8.css",
+    "static/js/main.540c7c61.js"
+  ]
+}
