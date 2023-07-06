@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/platform-for-smart-people-react/static/css/main.946e36b8.css",
-    "main.js": "/platform-for-smart-people-react/static/js/main.540c7c61.js",
+    "main.js": "/platform-for-smart-people-react/static/js/main.a0e4c09a.js",
     "static/js/787.3927661a.chunk.js": "/platform-for-smart-people-react/static/js/787.3927661a.chunk.js",
     "static/media/evelina.png": "/platform-for-smart-people-react/static/media/evelina.f2cd0eff88115bdc2c58.png",
     "static/media/nadja.png": "/platform-for-smart-people-react/static/media/nadja.8da1cd82e377e372873d.png",
@@ -27,11 +27,11 @@
     "static/media/vattenfärger.png": "/platform-for-smart-people-react/static/media/vattenfärger.d34f3f295e1d31b84062.png",
     "index.html": "/platform-for-smart-people-react/index.html",
     "main.946e36b8.css.map": "/platform-for-smart-people-react/static/css/main.946e36b8.css.map",
-    "main.540c7c61.js.map": "/platform-for-smart-people-react/static/js/main.540c7c61.js.map",
+    "main.a0e4c09a.js.map": "/platform-for-smart-people-react/static/js/main.a0e4c09a.js.map",
     "787.3927661a.chunk.js.map": "/platform-for-smart-people-react/static/js/787.3927661a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.946e36b8.css",
-    "static/js/main.540c7c61.js"
+    "static/js/main.a0e4c09a.js"
   ]
 }
