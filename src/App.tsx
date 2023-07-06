@@ -16,9 +16,9 @@ import ActivityProfile from './pages/ActivityProfile'
 
 function App() {
 	return (
-		<BrowserRouter>
-			<Routes>
-				<Route path="/~joju4839/" element={<Layout />}>
+        <BrowserRouter basename='/platform-for-smart-people-react'>	
+        <Routes>
+				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />
 					<Route path="participants" element={<Participants />} />
 					<Route path="activities" element={<Activities />} />
