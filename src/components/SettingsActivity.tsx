@@ -1,7 +1,8 @@
 import {Col, Form, Row} from 'react-bootstrap'
-import React from 'react'
+import {useState} from 'react';
 
 export default function SettingsActivity() {
+	const [name, setName] = useState('name')
 	return <Form>
 		<Row className={"mb-3"}>
 			<Col md={3}>
@@ -20,7 +21,7 @@ export default function SettingsActivity() {
 
 				<Form.Group>
 					<Form.Label>Antal minuter:</Form.Label>
-					<Form.Control type="number" value={60} min={0} max={580} step={5}/>
+					<Form.Control type="number" value={100} min={0} max={580} step={5}/>
 				</Form.Group>
 			</Col>
 			<Col>
