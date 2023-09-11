@@ -9,6 +9,7 @@ import Item from '../components/Item'
 import Persona, {personas} from '../components/Persona'
 import ButtonRemoveActivity from '../components/ButtonRemoveActivity'
 import SettingsActivity from '../components/SettingsActivity'
+import ModalAddActivity from 'components/ModalAddActivity'
 
 function ActivityProfile() {
 	const navigate = useNavigate();
@@ -98,6 +99,7 @@ function ActivityProfile() {
 				</Accordion>
 				<div className={"my-3"}>
 					<ButtonRemoveActivity/>
+					<ModalAddActivity activityP={activity}/>
 				</div>
 			</Col>
 		</div>

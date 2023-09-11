@@ -1,10 +1,13 @@
-import React from 'react'
+import  { useState } from 'react'
 import {Container} from 'react-bootstrap'
 import ModalAddActivity from 'components/ModalAddActivity'
 import {useNavigate} from 'react-router-dom'
-import Activity, {activities} from 'components/Activity'
+import Activity, {activities,empty} from 'components/Activity'
 
 function Activities() {
+	const [description, setDescription] = useState('description');
+console.log()
+
 	const navigate = useNavigate();
 	return (
 		<Container className={"my-5 d-flex flex-column gap-5"}>
@@ -17,7 +20,7 @@ function Activities() {
 					))}
 				</div>
 			</div>
-			<ModalAddActivity/>
+			<ModalAddActivity activityP={empty}/>
 		</Container>
 	);
 }

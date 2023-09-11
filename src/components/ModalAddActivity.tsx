@@ -9,11 +9,10 @@ import SettingsActivity from './SettingsActivity'
 import AlertSaveActivityConfirmation from './AlertSaveActivityConfirmation'
 import {useNavigate} from 'react-router-dom'
 
-function ModalAddActivity() {
+function ModalAddActivity({activityP}: any) {
 	const navigate = useNavigate();
 	const [show, setShow] = useState(false);
 	const [saved, setSave] = useState(false);
-	const activity = diska;
 
 	const [name, setName] = useState('name');
 	const [description, setDescription] = useState('description');
@@ -38,14 +37,14 @@ function ModalAddActivity() {
 			<Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg">
 				<Modal.Header closeButton>
 					<Modal.Title>
-						<Form.Control onChange={(e) => setName(e.target.value)}  type="text" placeholder={"Aktivitetens namn"} autoFocus plaintext={true}/>
+						<Form.Control onChange={(e) => setName(e.target.value)} value={activityP.name} type="text" placeholder={"Aktivitetens namn"} autoFocus plaintext={true}/>
 					</Modal.Title>
 				</Modal.Header>
 				<Modal.Body>
 					<Form>
 						<Form.Group className="mb-3 d-flex flex-row gap-3">
 							<Form.Group>
-								<FilePicker element={<Activity activity={activity} size={100} roundedCircle={true}/>} size={100} roundedCircle={true}/>
+								<FilePicker element={<Activity activity={activityP} size={100} roundedCircle={true}/>} size={100} roundedCircle={true}/>
 							</Form.Group>
 							<Form.Group className="w-100">
 								<Form.Control onChange={(e) => setDescription(e.target.value)}  value={description} as="textarea" rows={4} placeholder={"Beskrivning av aktiviteten"} style={{resize: "none"}}/>
