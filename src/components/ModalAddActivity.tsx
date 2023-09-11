@@ -58,7 +58,7 @@ function ModalAddActivity() {
 							<Form.Label>Deltagare:</Form.Label>
 							<select className="form-select" multiple>
 								{personas.map(persona => (
-									<option>{persona.name}</option>
+									<option key={persona.name}>{persona.name}</option>
 								))}
 							</select>
 						</Form.Group>

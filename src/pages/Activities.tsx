@@ -11,8 +11,8 @@ function Activities() {
 			<div className={"d-flex flex-column align-items-center col-lg-10 mx-auto"}>
 				<div className={"d-flex flex-row flex-wrap gap-4 p-0 w-100 m-auto justify-content-evenly"}>
 					{activities.map(activity => (
-						<div onClick={() => navigate('../activityprofile', { state: activity })} style={{cursor: "pointer"}}>
-							<Activity activity={activity} size={100} showName={true} roundedCircle={true}/>
+						<div key={activity.name} onClick={() => navigate('../activityprofile', { state: activity })} style={{cursor: "pointer"}}>
+							<Activity  activity={activity} size={100} showName={true} roundedCircle={true}/>
 						</div>
 					))}
 				</div>
