@@ -10,7 +10,7 @@
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.25",
     "@types/react": "^18.2.5",
-    "@types/react-dom": "^18.2.3",
+    "@types/react-dom": "^18.2.7",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.5",
     "immutability-helper": "^3.1.1",
@@ -31,6 +31,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint src/**/*.tsx src/**/*.ts",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
