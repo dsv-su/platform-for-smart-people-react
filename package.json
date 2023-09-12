@@ -34,13 +34,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -55,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.49.0",
     "gh-pages": "^5.0.0",
     "react-router-dom": "^6.11.1"
   }
